@@ -14,7 +14,7 @@ xhttp.onreadystatechange = function () {
             var videoDiv = document.createElement('div');
             videoDiv.classList.add('videoDiv');
             videoDiv.innerHTML = `
-                    <img src=${video.thumbnails.default.url} >
+                    <img src=${video.thumbnails.high.url} >
                     <h6>${video.title}</h6>`;
 
             contentContainer.appendChild(videoDiv);
