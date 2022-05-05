@@ -36,6 +36,11 @@ section {
     border-bottom: 1px solid black;
 }
 
+header h3, nav header {
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: red;
+}
 
 #sidebar {
     margin: 0;
@@ -156,6 +161,7 @@ section {
 
 .nav-bottom-img {
     display: flex;
+    padding-top: 100px;
 
 }
 
